@@ -1,11 +1,13 @@
 .header {
     display: flex;
+    margin-top: 15px;
 }
 
 .header__left {
     color: darkblue;
     font-weight: bold;
     margin-left: 10px;
+
 }
 
 .header__right {
@@ -17,7 +19,7 @@
 
 li {
     display: inline-block;
-    margin: 0 10px 20px 10px;
+    margin: 0 8px 50px 8px;
     font-weight: bold;
 }
 
@@ -27,9 +29,6 @@ a {
     font-size: 10px;
 }
 
-.content {
-    
-}
 
 .img {
     display: block;
@@ -43,12 +42,12 @@ a {
 
 .content-wrap {
     position: relative;
-    bottom: 150px;
+    bottom: 90px;
     z-index: 1;
 }
 
 .comment {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: normal;
     margin-bottom: 0;
 }
@@ -56,7 +55,7 @@ a {
 
 .blue-box {
     background-color: darkblue;
-    width: 550px;
+    width: 600px;
     height: 100px;
     margin-top: 0;
 }
